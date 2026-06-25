@@ -1,0 +1,1630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sangirishta Tradex</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .hero-bg {
+            background:
+                linear-gradient(rgba(255, 255, 255, .85), rgba(255, 255, 255, .85)),
+                url('images/world-map.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .gold-btn {
+            background: #D4A64A;
+            transition: .4s;
+        }
+
+        .gold-btn:hover {
+            background: #0A2540;
+            transform: translateY(-3px);
+        }
+
+        .blue-btn {
+            background: #0A2540;
+            transition: .4s;
+        }
+
+        .blue-btn:hover {
+            background: #D4A64A;
+            transform: translateY(-3px);
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .float-card {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0)
+            }
+
+            50% {
+                transform: translateY(-10px)
+            }
+        }
+    </style>
+
+</head>
+
+<body class="bg-white">
+
+    <!-- TOP BAR -->
+
+    <div class="bg-[#0A2540] text-white py-3 text-sm">
+
+        <div class="max-w-7xl mx-auto px-6 flex flex-wrap justify-between items-center gap-4">
+
+            <div class="flex flex-wrap gap-6">
+
+                <span>
+                    <i class="fa-solid fa-phone text-[#D4A64A] mr-2"></i>
+                    <a href="tel: 9096202417"> 9096202417 </a>
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-envelope text-[#D4A64A] mr-2"></i>
+                    <a href="mail:sangirishta.tradex@gmail.com">sangirishta.tradex@gmail.com</a>
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-location-dot text-[#D4A64A] mr-2"></i>
+                    Pune, Maharashtra, India
+                </span>
+
+            </div>
+
+            <div>
+                GST : 27BPMPM0049B1Z4
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- NAVBAR -->
+
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="flex justify-between items-center h-24">
+
+                <!-- LOGO -->
+
+                <div class="flex items-center gap-3">
+
+                    <img src="images/logo.png" class="h-16 md:h-20 object-contain">
+
+                    <div>
+
+                        <h2 class="text-xl font-bold text-[#0A2540]">
+                            SANGIRISHTA
+                        </h2>
+
+                        <p class="text-xs tracking-[3px] text-gray-500">
+                            TRADEX
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- MENU -->
+
+                <div class="hidden lg:flex items-center gap-10">
+
+                    <a href="index.html" class="font-medium hover:text-[#D4A64A] transition">
+                        Home
+                    </a>
+
+                    <a href="about.html" class="font-medium hover:text-[#D4A64A] transition">
+                        About Us
+                    </a>
+
+                    <a href="products.html" class="font-medium hover:text-[#D4A64A] transition">
+                        Products
+                    </a>
+
+                    <a href="whyus.html" class="font-medium hover:text-[#D4A64A] transition">
+                        Why Choose Us
+                    </a>
+
+                    <a href="industries.html" class="font-medium hover:text-[#D4A64A] transition">
+                        Industries
+                    </a>
+
+                    <a href="contact.html" class="font-medium hover:text-[#D4A64A] transition">
+                        Contact
+                    </a>
+
+                </div>
+
+                <a href="tel:9096202417"
+                    class="hidden lg:inline-flex px-6 py-3 rounded-lg gold-btn text-white font-semibold">
+
+                    GET A QUOTE
+
+                </a>
+
+                <div class="lg:hidden text-3xl text-[#0A2540]">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!--Hero Section-->
+    <section class="relative h-[80vh] flex items-center justify-center">
+
+        <div class="absolute inset-0">
+            <img src="pdt-img/products-banner.jpg" class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-[#0A2540]/75"></div>
+        </div>
+
+        <div class="relative z-10 text-center text-white px-6">
+
+            <span class="text-[#D4A64A] uppercase tracking-[4px] font-semibold">
+                OUR PRODUCTS
+            </span>
+
+            <h1 class="text-5xl lg:text-7xl font-bold mt-6">
+                Premium Products
+                For Global Markets
+            </h1>
+
+            <p class="max-w-3xl mx-auto mt-6 text-lg text-gray-200">
+                Delivering quality agricultural, herbal, dairy and industrial
+                products with reliability and excellence.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- PRODUCT CATEGORIES OVERVIEW -->
+
+    <section class=" relative py-24 bg-slate-50 overflow-hidden">
+
+        <div class="absolute inset-0">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0A2540]/60 to-transparent"></div>
+        </div>
+        <div class=" relative max-w-7xl mx-auto px-6">
+
+            <!-- Heading -->
+
+            <div class="text-center max-w-3xl mx-auto">
+
+                <span class="text-[#D4A64A] uppercase tracking-[4px] font-semibold">
+                    Product Categories
+                </span>
+
+                <h2 class="text-4xl lg:text-5xl font-bold text-[#0A2540] mt-4">
+                    Diverse Products For Global Markets
+                </h2>
+
+                <p class="text-gray-600 mt-5">
+                    From premium agricultural commodities to industrial solutions,
+                    Sangirishta Tradex delivers quality products tailored to
+                    domestic and international business requirements.
+                </p>
+
+            </div>
+
+            <!-- Categories -->
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+
+                <!-- Agriculture -->
+
+                <div
+                    class="group bg-white rounded-[30px] p-8 shadow-lg hover:shadow-2xl hover:-translate-y-3 duration-500 border-b-4 border-transparent hover:border-[#D4A64A]">
+
+                    <div
+                        class="w-20 h-20 rounded-2xl bg-green-100 flex items-center justify-center group-hover:bg-green-600 duration-300">
+
+                        <i class="fa-solid fa-seedling text-4xl text-green-600 group-hover:text-white"></i>
+
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-[#0A2540] mt-8">
+                        Agricultural Products
+                    </h3>
+
+                    <p class="text-gray-600 mt-4">
+                        Premium quality Cashew and Raw Turmeric sourced directly
+                        from trusted farms and suppliers.
+                    </p>
+
+                </div>
+
+                <!-- Herbal -->
+
+                <div
+                    class="group bg-white rounded-[30px] p-8 shadow-lg hover:shadow-2xl hover:-translate-y-3 duration-500 border-b-4 border-transparent hover:border-[#D4A64A]">
+
+                    <div
+                        class="w-20 h-20 rounded-2xl bg-emerald-100 flex items-center justify-center group-hover:bg-emerald-600 duration-300">
+
+                        <i class="fa-solid fa-leaf text-4xl text-emerald-600 group-hover:text-white"></i>
+
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-[#0A2540] mt-8">
+                        Herbal Products
+                    </h3>
+
+                    <p class="text-gray-600 mt-4">
+                        High-grade Herbal Extracts suitable for wellness,
+                        nutraceutical and pharmaceutical industries.
+                    </p>
+
+                </div>
+
+                <!-- Dairy -->
+
+                <div
+                    class="group bg-white rounded-[30px] p-8 shadow-lg hover:shadow-2xl hover:-translate-y-3 duration-500 border-b-4 border-transparent hover:border-[#D4A64A]">
+
+                    <div
+                        class="w-20 h-20 rounded-2xl bg-amber-100 flex items-center justify-center group-hover:bg-[#D4A64A] duration-300">
+
+                        <i class="fa-solid fa-cow text-4xl text-[#D4A64A] group-hover:text-white"></i>
+
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-[#0A2540] mt-8">
+                        Dairy Products
+                    </h3>
+
+                    <p class="text-gray-600 mt-4">
+                        Pure Desi Cow Ghee manufactured with traditional methods
+                        and premium quality standards.
+                    </p>
+
+                </div>
+
+                <!-- Engineering -->
+
+                <div
+                    class="group bg-white rounded-[30px] p-8 shadow-lg hover:shadow-2xl hover:-translate-y-3 duration-500 border-b-4 border-transparent hover:border-[#D4A64A]">
+
+                    <div
+                        class="w-20 h-20 rounded-2xl bg-blue-100 flex items-center justify-center group-hover:bg-[#0A2540] duration-300">
+
+                        <i class="fa-solid fa-gears text-4xl text-[#0A2540] group-hover:text-white"></i>
+
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-[#0A2540] mt-8">
+                        Engineering Products
+                    </h3>
+
+                    <p class="text-gray-600 mt-4">
+                        Precision-engineered Motor Shafts designed for industrial
+                        machinery and engineering applications.
+                    </p>
+
+                </div>
+
+                <!-- Automation -->
+
+                <div
+                    class="group bg-white rounded-[30px] p-8 shadow-lg hover:shadow-2xl hover:-translate-y-3 duration-500 border-b-4 border-transparent hover:border-[#D4A64A]">
+
+                    <div
+                        class="w-20 h-20 rounded-2xl bg-purple-100 flex items-center justify-center group-hover:bg-purple-600 duration-300">
+
+                        <i class="fa-solid fa-computer text-4xl text-purple-600 group-hover:text-white"></i>
+
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-[#0A2540] mt-8">
+                        Vending Solutions
+                    </h3>
+
+                    <p class="text-gray-600 mt-4">
+                        Modern Vending Machines designed for commercial,
+                        retail and hospitality businesses.
+                    </p>
+
+                </div>
+
+                <!-- Global Trade -->
+
+                <div
+                    class="group bg-white rounded-[30px] p-8 shadow-lg hover:shadow-2xl hover:-translate-y-3 duration-500 border-b-4 border-transparent hover:border-[#D4A64A]">
+
+                    <div
+                        class="w-20 h-20 rounded-2xl bg-white/20 flex items-center justify-center group-hover:bg-[#D4A64A] duration-300">
+
+                        <i class="fa-solid fa-earth-asia text-4xl text-[#D4A64A] group-hover:text-white"></i>
+
+                    </div>
+
+                    <h3 class="text-2xl font-bold text-[#0A2540] mt-8">
+                        Global Export Services
+                    </h3>
+
+                    <p class="text-gray-600 mt-4">
+                        Reliable sourcing, packaging, logistics and export
+                        solutions for worldwide customers.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--FEATURED PRODUCT-->
+
+    <section class="py-24 bg-white">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center">
+
+                <span class="text-[#D4A64A] uppercase tracking-[4px] font-semibold">
+                    Featured Products
+                </span>
+
+                <h2 class="text-4xl lg:text-5xl font-bold text-[#0A2540] mt-4">
+                    Our Priority Export Products
+                </h2>
+
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-10 mt-16">
+
+                <!-- Cashew -->
+
+                <div class="group relative rounded-[30px] overflow-hidden">
+
+                    <img src="images/cashew.jpg"
+                        class="w-full h-[500px] object-cover group-hover:scale-110 duration-700">
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0A2540] via-[#0A2540]/50 to-transparent"></div>
+
+                    <div class="absolute bottom-10 left-10">
+
+                        <span class="bg-[#D4A64A] px-5 py-2 rounded-full text-white text-sm">
+                            Featured Product
+                        </span>
+
+                        <h3 class="text-4xl font-bold text-white mt-5">
+                            Premium Cashew
+                        </h3>
+
+                        <p class="text-gray-200 mt-4 max-w-md">
+                            Export-grade cashew nuts with superior taste,
+                            freshness and nutritional value.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Turmeric -->
+
+                <div class="group relative rounded-[30px] overflow-hidden">
+
+                    <img src="images/raw turmeric.jpg"
+                        class="w-full h-[500px] object-cover group-hover:scale-110 duration-700">
+
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#0A2540] via-[#0A2540]/50 to-transparent"></div>
+
+                    <div class="absolute bottom-10 left-10">
+
+                        <span class="bg-[#D4A64A] px-5 py-2 rounded-full text-white text-sm">
+                            Featured Product
+                        </span>
+
+                        <h3 class="text-4xl font-bold text-white mt-5">
+                            Raw Turmeric
+                        </h3>
+
+                        <p class="text-gray-200 mt-4 max-w-md">
+                            Freshly sourced turmeric roots known for
+                            purity, color and medicinal value.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--PRODUCTS SHOWCASE-->
+
+    <section class="py-24 bg-[#f7f8fa] overflow-hidden">
+
+        <div class="max-w-[1600px] mx-auto px-6">
+
+            <!-- Heading -->
+
+            <div class="text-center max-w-5xl mx-auto mb-20">
+
+                <span class="uppercase tracking-[5px] text-[#D4A64A] font-semibold">
+
+                    OUR PRODUCTS
+
+                </span>
+
+                <h2 class="text-5xl lg:text-7xl font-bold text-[#0A2540] mt-6 leading-tight">
+
+                    Premium Products For
+
+                    <span class="text-[#D4A64A]">
+                        Global Markets
+                    </span>
+
+                </h2>
+
+                <p class="text-gray-600 text-lg mt-8 max-w-3xl mx-auto">
+
+                    Delivering superior quality agricultural, herbal,
+                    dairy and industrial products to domestic and
+                    international buyers.
+
+                </p>
+
+            </div>
+
+            <!-- Products Grid -->
+
+            <div class="grid md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-6 gap-7">
+
+                <!-- CASHEW -->
+
+                <div
+                    class="group bg-white rounded-[28px] overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-4 duration-500">
+
+                    <div class="relative">
+
+                        <img src="images/cashew.jpg"
+                            class="w-full h-56 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="relative px-7 pt-14 pb-10 text-center">
+
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 rounded-full bg-[#0A2540] border-4 border-[#D4A64A] flex items-center justify-center shadow-xl">
+
+                            <i class="fa-solid fa-bowl-food text-white text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-2xl font-bold text-[#0A2540]">
+                            Cashew
+                        </h3>
+
+                        <div class="w-14 h-1 bg-[#D4A64A] mx-auto my-5"></div>
+
+                        <p class="text-gray-600 leading-7 text-sm">
+                            Premium export quality cashew sourced from trusted suppliers.
+                        </p>
+
+                        <a href="contact.html"
+                            class="inline-block mt-7 bg-[#0A2540] text-white px-6 py-3 rounded-xl hover:bg-[#D4A64A] duration-300">
+
+                            View Details
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- RAW TURMERIC -->
+
+                <div
+                    class="group bg-white rounded-[28px] overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-4 duration-500">
+
+                    <img src="images/raw turmeric.jpg"
+                        class="w-full h-56 object-cover group-hover:scale-110 duration-700">
+
+                    <div class="relative px-7 pt-14 pb-10 text-center">
+
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 rounded-full bg-[#0A2540] border-4 border-[#D4A64A] flex items-center justify-center">
+
+                            <i class="fa-solid fa-seedling text-white text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-2xl font-bold text-[#0A2540]">
+                            Raw Turmeric
+                        </h3>
+
+                        <div class="w-14 h-1 bg-[#D4A64A] mx-auto my-5"></div>
+
+                        <p class="text-gray-600 leading-7 text-sm">
+                            Fresh turmeric roots known for purity and rich color.
+                        </p>
+
+                        <a href="contact.html"
+                            class="inline-block mt-7 bg-[#0A2540] text-white px-6 py-3 rounded-xl hover:bg-[#D4A64A] duration-300">
+
+                            View Details
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- HERBAL EXTRACTS -->
+
+                <div
+                    class="group bg-white rounded-[28px] overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-4 duration-500">
+
+                    <img src="images/herbal-extracts.jpg"
+                        class="w-full h-56 object-cover group-hover:scale-110 duration-700">
+
+                    <div class="relative px-7 pt-14 pb-10 text-center">
+
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 rounded-full bg-[#0A2540] border-4 border-[#D4A64A] flex items-center justify-center">
+
+                            <i class="fa-solid fa-leaf text-white text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-2xl font-bold text-[#0A2540]">
+                            Herbal Extracts
+                        </h3>
+
+                        <div class="w-14 h-1 bg-[#D4A64A] mx-auto my-5"></div>
+
+                        <p class="text-gray-600 leading-7 text-sm">
+                            High-grade botanical extracts for wellness industries.
+                        </p>
+
+                        <a href="contact.html"
+                            class="inline-block mt-7 bg-[#0A2540] text-white px-6 py-3 rounded-xl hover:bg-[#D4A64A] duration-300">
+
+                            View Details
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- DESI COW GHEE -->
+
+                <div
+                    class="group bg-white rounded-[28px] overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-4 duration-500">
+
+                    <img src="images/desi-cow-ghee.jpg"
+                        class="w-full h-56 object-cover group-hover:scale-110 duration-700">
+
+                    <div class="relative px-7 pt-14 pb-10 text-center">
+
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 rounded-full bg-[#0A2540] border-4 border-[#D4A64A] flex items-center justify-center">
+
+                            <i class="fa-solid fa-cow text-white text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-2xl font-bold text-[#0A2540]">
+                            Desi Cow Ghee
+                        </h3>
+
+                        <div class="w-14 h-1 bg-[#D4A64A] mx-auto my-5"></div>
+
+                        <p class="text-gray-600 leading-7 text-sm">
+                            Pure traditional cow ghee with rich aroma and taste.
+                        </p>
+
+                        <a href="contact.html"
+                            class="inline-block mt-7 bg-[#0A2540] text-white px-6 py-3 rounded-xl hover:bg-[#D4A64A] duration-300">
+
+                            View Details
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- MOTOR SHAFTS -->
+
+                <div
+                    class="group bg-white rounded-[28px] overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-4 duration-500">
+
+                    <img src="images/Motor-Rotor-Shaft.jpg"
+                        class="w-full h-56 object-cover group-hover:scale-110 duration-700">
+
+                    <div class="relative px-7 pt-14 pb-10 text-center">
+
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 rounded-full bg-[#0A2540] border-4 border-[#D4A64A] flex items-center justify-center">
+
+                            <i class="fa-solid fa-gears text-white text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-2xl font-bold text-[#0A2540]">
+                            Motor Shafts
+                        </h3>
+
+                        <div class="w-14 h-1 bg-[#D4A64A] mx-auto my-5"></div>
+
+                        <p class="text-gray-600 leading-7 text-sm">
+                            Precision-engineered shafts for industrial applications.
+                        </p>
+
+                        <a href="contact.html"
+                            class="inline-block mt-7 bg-[#0A2540] text-white px-6 py-3 rounded-xl hover:bg-[#D4A64A] duration-300">
+
+                            View Details
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- VENDING MACHINES -->
+
+                <div
+                    class="group bg-white rounded-[28px] overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-4 duration-500">
+
+                    <img src="images/vending-machine.jpg"
+                        class="w-full h-56 object-cover group-hover:scale-110 duration-700">
+
+                    <div class="relative px-7 pt-14 pb-10 text-center">
+
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 rounded-full bg-[#0A2540] border-4 border-[#D4A64A] flex items-center justify-center">
+
+                            <i class="fa-solid fa-store text-white text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-2xl font-bold text-[#0A2540]">
+                            Vending Machines
+                        </h3>
+
+                        <div class="w-14 h-1 bg-[#D4A64A] mx-auto my-5"></div>
+
+                        <p class="text-gray-600 leading-7 text-sm">
+                            Modern vending solutions for commercial environments.
+                        </p>
+
+                        <a href="contact.html"
+                            class="inline-block mt-7 bg-[#0A2540] text-white px-6 py-3 rounded-xl hover:bg-[#D4A64A] duration-300">
+
+                            View Details
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--INDUSTRIES WE SERVE -->
+
+    <section class=" relative py-24 bg-[#F8FAFC]">
+
+        <div class="absolute inset-0">
+
+            <img src="pdt-img/we serve.jpg" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#0A2540]/60 to-transparent"></div>
+        </div>
+
+        <div class=" relative max-w-7xl mx-auto px-6">
+
+            <!-- Heading -->
+
+            <div class="text-center max-w-4xl mx-auto">
+
+                <span class="uppercase tracking-[4px] text-[#D4A64A] font-semibold">
+
+                    Industries We Serve
+
+                </span>
+
+                <h2 class="text-5xl lg:text-7xl font-bold text-[#0A2540] mt-6 leading-tight">
+
+                    Empowering Businesses Across
+                    <span class="text-[#D4A64A]">
+                        Diverse Industries
+                    </span>
+
+                </h2>
+
+                <p class="text-gray-800 text-lg mt-8 max-w-3xl mx-auto">
+
+                    Our high-quality products cater to a wide range of industries.
+                    We are committed to delivering excellence that supports growth
+                    and innovation worldwide.
+
+                </p>
+
+            </div>
+
+            <!-- Industry Cards -->
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6 mt-20">
+
+                <!-- Food -->
+
+                <div
+                    class="group bg-white rounded-[25px] overflow-hidden shadow-lg hover:-translate-y-4 hover:shadow-2xl duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/cashew farm.jpg"
+                            class="w-full h-56 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="relative p-6 text-center">
+
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 bg-[#0A2540] border-4 border-[#D4A64A] rounded-full flex items-center justify-center">
+
+                            <i class="fa-solid fa-utensils text-white text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-xl font-bold text-[#0A2540] mt-12">
+                            Food Industry
+                        </h3>
+
+                        <div class="w-12 h-1 bg-[#D4A64A] mx-auto mt-4"></div>
+
+                        <p class="text-gray-600 mt-5">
+                            Premium Cashew and food-grade products for global food manufacturers.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Herbal -->
+
+                <div
+                    class="group bg-white rounded-[25px] overflow-hidden shadow-lg hover:-translate-y-4 hover:shadow-2xl duration-500">
+
+                    <div class="overflow-hidden">
+                        <img src="pdt-img/herbal wellness.jpg"
+                            class="w-full h-56 object-cover group-hover:scale-110 duration-700">
+                    </div>
+
+                    <div class="relative p-6 text-center">
+
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 bg-[#0A2540] border-4 border-[#D4A64A] rounded-full flex items-center justify-center">
+
+                            <i class="fa-solid fa-leaf text-white text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-xl font-bold text-[#0A2540] mt-12">
+                            Herbal & Wellness
+                        </h3>
+
+                        <div class="w-12 h-1 bg-[#D4A64A] mx-auto mt-4"></div>
+
+                        <p class="text-gray-600 mt-5">
+                            Herbal extracts for nutraceutical and healthcare industries.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Dairy -->
+
+                <div
+                    class="group bg-white rounded-[25px] overflow-hidden shadow-lg hover:-translate-y-4 hover:shadow-2xl duration-500">
+
+                    <div class="overflow-hidden">
+                        <img src="pdt-img/500-ML-Gear-Cow-Ghee.jpg"
+                            class="w-full h-56 object-cover group-hover:scale-110 duration-700">
+                    </div>
+
+                    <div class="relative p-6 text-center">
+
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 bg-[#0A2540] border-4 border-[#D4A64A] rounded-full flex items-center justify-center">
+
+                            <i class="fa-solid fa-cow text-white text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-xl font-bold text-[#0A2540] mt-12">
+                            Dairy Industry
+                        </h3>
+
+                        <div class="w-12 h-1 bg-[#D4A64A] mx-auto mt-4"></div>
+
+                        <p class="text-gray-600 mt-5">
+                            Pure Desi Cow Ghee for health-conscious consumers.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Engineering -->
+
+                <div
+                    class="group bg-white rounded-[25px] overflow-hidden shadow-lg hover:-translate-y-4 hover:shadow-2xl duration-500">
+
+                    <div class="overflow-hidden">
+                        <img src="pdt-img/Pump-Shaft.jpg"
+                            class="w-full h-56 object-cover group-hover:scale-110 duration-700">
+                    </div>
+
+                    <div class="relative p-6 text-center">
+
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 bg-[#0A2540] border-4 border-[#D4A64A] rounded-full flex items-center justify-center">
+
+                            <i class="fa-solid fa-gears text-white text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-xl font-bold text-[#0A2540] mt-12">
+                            Engineering
+                        </h3>
+
+                        <div class="w-12 h-1 bg-[#D4A64A] mx-auto mt-4"></div>
+
+                        <p class="text-gray-600 mt-5">
+                            Precision engineered motor shafts and industrial components.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Vending -->
+
+                <div
+                    class="group bg-white rounded-[25px] overflow-hidden shadow-lg hover:-translate-y-4 hover:shadow-2xl duration-500">
+
+                    <div class="overflow-hidden">
+                        <img src="images/vending-machine.jpg"
+                            class="w-full h-56 object-cover group-hover:scale-110 duration-700">
+                    </div>
+
+                    <div class="relative p-6 text-center">
+
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 bg-[#0A2540] border-4 border-[#D4A64A] rounded-full flex items-center justify-center">
+
+                            <i class="fa-solid fa-store text-white text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-xl font-bold text-[#0A2540] mt-12">
+                            Retail & Commercial
+                        </h3>
+
+                        <div class="w-12 h-1 bg-[#D4A64A] mx-auto mt-4"></div>
+
+                        <p class="text-gray-600 mt-5">
+                            Smart vending machine solutions for businesses.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Export -->
+
+                <div
+                    class="group bg-white rounded-[25px] overflow-hidden shadow-lg hover:-translate-y-4 hover:shadow-2xl duration-500">
+
+                    <div class="overflow-hidden">
+                        <img src="pdt-img/import export.jpg"
+                            class="w-full h-56 object-cover group-hover:scale-110 duration-700">
+                    </div>
+
+                    <div class="relative p-6 text-center">
+
+                        <div
+                            class="absolute -top-10 left-1/2 -translate-x-1/2 w-20 h-20 bg-[#0A2540] border-4 border-[#D4A64A] rounded-full flex items-center justify-center">
+
+                            <i class="fa-solid fa-earth-asia text-white text-3xl"></i>
+
+                        </div>
+
+                        <h3 class="text-xl font-bold text-[#0A2540] mt-12">
+                            Import & Export
+                        </h3>
+
+                        <div class="w-12 h-1 bg-[#D4A64A] mx-auto mt-4"></div>
+
+                        <p class="text-gray-600 mt-5">
+                            Reliable sourcing, packaging and worldwide delivery.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Bottom Statistics Bar -->
+
+            <div class="mt-20 bg-gradient-to-r from-[#061B34] to-[#0A2540] rounded-[30px] p-10">
+
+                <div class="grid md:grid-cols-5 gap-8 text-center">
+
+                    <div>
+                        <h3 class="text-5xl font-bold text-white">25+</h3>
+                        <p class="text-gray-300 mt-3">Countries Served</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-5xl font-bold text-white">100+</h3>
+                        <p class="text-gray-300 mt-3">Products Delivered</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-5xl font-bold text-white">500+</h3>
+                        <p class="text-gray-300 mt-3">Happy Clients</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-5xl font-bold text-white">10+</h3>
+                        <p class="text-gray-300 mt-3">Years Excellence</p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-5xl font-bold text-white">99%</h3>
+                        <p class="text-gray-300 mt-3">On-Time Delivery</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="text-center mt-14">
+
+            <a href="industries.html"
+                class="group inline-flex items-center gap-4 px-12 py-5 rounded-2xl text-white font-bold text-lg bg-gradient-to-r from-[#0A2540] to-[#123E66] hover:from-[#D4A64A] hover:to-[#f0c35b] hover:scale-105 duration-300 shadow-xl">
+
+                <i class="fa-solid fa-building"></i>
+
+                Explore Industries
+
+                <i class="fa-solid fa-arrow-right group-hover:translate-x-2 duration-300"></i>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!--PRODUCT GALLERY SECTION -->
+
+    <section class="py-24 bg-gradient-to-b from-slate-50 to-white overflow-hidden">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <!-- Section Heading -->
+
+            <div class="text-center max-w-3xl mx-auto">
+
+                <span class="text-[#D4A64A] uppercase tracking-[4px] font-semibold">
+                    Product Gallery
+                </span>
+
+                <h2 class="text-4xl lg:text-6xl font-bold text-[#0A2540] mt-4">
+                    Explore Our Premium Products
+                </h2>
+
+                <p class="text-gray-600 mt-5">
+                    Browse our diverse range of agricultural, herbal, dairy and industrial products
+                    supplied to domestic and international markets.
+                </p>
+
+            </div>
+
+            <!-- Gallery Grid -->
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20">
+
+                <!-- Cashew -->
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/Natural-Cashew.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            Premium Cashew
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <!--  split Cashew -->
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/Split-Cashew-Nuts.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            Split Cashew Nuts
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Raw Turmeric -->
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="images/raw turmeric.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            Raw Turmeric
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <!-- Herbal Extracts -->
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/Immunity-Booster-Drops.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            Immunity Booster Drops
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/Masala-Chai-Drops.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            Masala Chai Drops
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/Clove Drops.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            Clove Drops
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/Herbal Chai Drops.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            Herbal Chai Drops
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/Ginger Lemongrass Drops.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            Ginger Lemongrass Drops
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/Ginger Drops.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            Ginger Drops
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <!-- Desi Cow Ghee -->
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/500-ML-Gear-Cow-Ghee.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            Desi Cow Ghee
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <!-- Motor Shafts -->
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="images/Motor-Rotor-Shaft.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            Motor Shafts
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <!-- Vending Machines -->
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="images/vending-machine.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            Vending Machines
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/5 Nozzle Vending Machine.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            5 Nozzle Vending Machine
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/10 Nozzle Vertical Vending Machine.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            10 Nozzle Vertical Vending Machine
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/27-Grids-Lattice-Cabinet-Vending-Machine.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            27 Grids Lattice Cabinet Vending Machine
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/Ice-Cream-Vending-Machine.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+Ice Cream Vending Machine
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                 <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/36-Channel-Ambient-Temperature-Vending-Machine.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+                            36 Channel Ambient Temperature Vending Machine
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+                <div
+                    class="group bg-white rounded-[30px] overflow-hidden border-2 border-slate-100 shadow-lg hover:shadow-2xl hover:border-[#D4A64A] hover:-translate-y-3 duration-500">
+
+                    <div class="overflow-hidden">
+
+                        <img src="pdt-img/72-Grids-Lattice-Cabinet-Vending-Machine.jpg"
+                            class="w-full h-72 object-cover group-hover:scale-110 duration-700">
+
+                    </div>
+
+                    <div class="p-6 text-center">
+
+                        <h3 class="text-2xl font-bold text-[#0A2540] group-hover:text-[#D4A64A] duration-300">
+
+72 Grids Lattice Cabinet Vending Machine
+                        </h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Bottom Button -->
+
+            <div class="text-center mt-16">
+
+                <a href="contact.html"
+                    class="group inline-flex items-center gap-3 px-10 py-5 bg-[#0A2540] text-white rounded-2xl font-semibold hover:bg-[#D4A64A] hover:shadow-xl duration-300">
+
+                    Contact Us
+
+                    <i class="fa-solid fa-arrow-right group-hover:translate-x-2 duration-300"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="bg-[#081A2E] text-white">
+
+        <div class="max-w-7xl mx-auto px-6 py-20">
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+
+                <!-- Company -->
+
+                <div>
+
+                    <img src="images/logo.png" class="h-20 mb-5">
+
+                    <p class="text-gray-400 leading-relaxed">
+                        Trusted trading and export company supplying
+                        premium quality products to domestic and
+                        international markets.
+                    </p>
+
+                </div>
+
+                <!-- Quick Links -->
+
+                <div>
+
+                    <h3 class="text-xl font-bold mb-6">
+                        Quick Links
+                    </h3>
+
+                    <ul class="space-y-3 text-gray-400">
+
+                        <li><a class="hover:text-white hover:underline" href="index.html">Home</a></li>
+                        <li><a class="hover:text-white hover:underline" href="about.html">About Us</a></li>
+                        <li><a class="hover:text-white hover:underline" href="products.html">Products</a></li>
+                        <li><a class="hover:text-white hover:underline" href="contact.html">Contact Us</a></li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Products -->
+
+                <div>
+
+                    <h3 class="text-xl font-bold mb-6">
+                        Products
+                    </h3>
+
+                    <ul class="space-y-3 text-gray-400">
+
+                        <li>Cashew</li>
+                        <li>Raw Turmeric</li>
+                        <li>Herbal Extracts</li>
+                        <li>Desi Cow Ghee</li>
+                        <li>Motor Shafts</li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Contact -->
+
+                <div>
+
+                    <h3 class="text-xl font-bold mb-6">
+                        Contact Info
+                    </h3>
+
+                    <ul class="space-y-4 text-gray-400">
+
+                        <li>
+                            <a href="tel:9096202417"> 📞 9096202417</a>
+                        </li>
+
+                        <li>
+                            <a href="mail:sangirishta.tradex@gmail.com">✉️ sangirishta.tradex@gmail.com</a>
+                        </li>
+
+                        <li>
+                            📍 Pune, Maharashtra, India
+                        </li>
+
+                        <li>
+                            GST: 27BPMPM0049B1Z4
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+
+        <div class="border-t border-white/10">
+
+            <div class="max-w-7xl mx-auto px-6 py-6 text-center text-gray-400">
+
+                © 2026 Sangirishta Tradex. All Rights Reserved.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

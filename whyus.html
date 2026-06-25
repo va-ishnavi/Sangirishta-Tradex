@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sangirishta Tradex</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .hero-bg {
+            background:
+                linear-gradient(rgba(255, 255, 255, .85), rgba(255, 255, 255, .85)),
+                url('images/world-map.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .gold-btn {
+            background: #D4A64A;
+            transition: .4s;
+        }
+
+        .gold-btn:hover {
+            background: #0A2540;
+            transform: translateY(-3px);
+        }
+
+        .blue-btn {
+            background: #0A2540;
+            transition: .4s;
+        }
+
+        .blue-btn:hover {
+            background: #D4A64A;
+            transform: translateY(-3px);
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .float-card {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0)
+            }
+
+            50% {
+                transform: translateY(-10px)
+            }
+        }
+    </style>
+
+</head>
+
+<body class="bg-white">
+
+    <!-- TOP BAR -->
+
+    <div class="bg-[#0A2540] text-white py-3 text-sm">
+
+        <div class="max-w-7xl mx-auto px-6 flex flex-wrap justify-between items-center gap-4">
+
+            <div class="flex flex-wrap gap-6">
+
+                <span>
+                    <i class="fa-solid fa-phone text-[#D4A64A] mr-2"></i>
+                    <a href="tel: 9096202417"> 9096202417 </a>
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-envelope text-[#D4A64A] mr-2"></i>
+                    <a href="mail:sangirishta.tradex@gmail.com">sangirishta.tradex@gmail.com</a>
+                </span>
+
+                <span>
+                    <i class="fa-solid fa-location-dot text-[#D4A64A] mr-2"></i>
+                    Pune, Maharashtra, India
+                </span>
+
+            </div>
+
+            <div>
+                GST : 27BPMPM0049B1Z4
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- NAVBAR -->
+
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="flex justify-between items-center h-24">
+
+                <!-- LOGO -->
+
+                <div class="flex items-center gap-3">
+
+                    <img src="images/logo.png" class="h-16 md:h-20 object-contain">
+
+                    <div>
+
+                        <h2 class="text-xl font-bold text-[#0A2540]">
+                            SANGIRISHTA
+                        </h2>
+
+                        <p class="text-xs tracking-[3px] text-gray-500">
+                            TRADEX
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- MENU -->
+
+                <div class="hidden lg:flex items-center gap-10">
+
+                    <a href="index.html" class="font-medium hover:text-[#D4A64A] transition">
+                        Home
+                    </a>
+
+                    <a href="about.html" class="font-medium hover:text-[#D4A64A] transition">
+                        About Us
+                    </a>
+
+                    <a href="products.html" class="font-medium hover:text-[#D4A64A] transition">
+                        Products
+                    </a>
+
+                    <a href="whyus.html" class="font-medium hover:text-[#D4A64A] transition">
+                        Why Choose Us
+                    </a>
+
+                    <a href="industries.html" class="font-medium hover:text-[#D4A64A] transition">
+                        Industries
+                    </a>
+
+                    <a href="contact.html" class="font-medium hover:text-[#D4A64A] transition">
+                        Contact
+                    </a>
+
+                </div>
+
+                <a href="tel:9096202417"
+                    class="hidden lg:inline-flex px-6 py-3 rounded-lg gold-btn text-white font-semibold">
+
+                    GET A QUOTE
+
+                </a>
+
+                <div class="lg:hidden text-3xl text-[#0A2540]">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!--Hero section-->
+
+    <section class="relative h-screen flex items-center">
+
+        <div class="absolute inset-0">
+
+            <img src="why-img/why-bg.jpg" class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-[#0A2540]/75"></div>
+
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-6">
+
+            <span class="bg-[#D4A64A]/20 text-[#D4A64A] px-6 py-3 rounded-full">
+                Why Choose Us
+            </span>
+
+            <h1 class="text-6xl lg:text-8xl font-bold text-white mt-8 leading-tight">
+
+                Your Trusted Partner
+                <br>
+
+                In Global Trade
+
+            </h1>
+
+            <p class="text-xl text-gray-300 mt-8 max-w-3xl">
+
+                Delivering premium products, trusted partnerships,
+                quality assurance and seamless export solutions worldwide.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- WHY GLOBAL BUYERS TRUST US -->
+
+    <section class="py-24 bg-slate-50 overflow-hidden">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center max-w-4xl mx-auto">
+
+                <span class="text-[#D4A64A] uppercase tracking-[4px] font-semibold">
+                    Global Trust
+                </span>
+
+                <h2 class="text-5xl lg:text-6xl font-bold text-[#0A2540] mt-4">
+                    Why Buyers Around The World Choose Us
+                </h2>
+
+                <p class="text-gray-600 mt-6 text-lg">
+                    Sangirishta Tradex is committed to delivering quality,
+                    consistency and reliability through every business transaction.
+                </p>
+
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-16 items-center mt-20">
+
+                <!-- Image -->
+
+                <div class="relative group">
+
+                    <img src="why-img/client stats.jpg"
+                        class="rounded-[35px] shadow-2xl group-hover:scale-105 duration-700">
+
+                    <div class="absolute -bottom-8 -right-8 bg-[#0A2540] p-8 rounded-3xl shadow-xl">
+
+                        <h3 class="text-5xl font-bold text-white">
+                            99%
+                        </h3>
+
+                        <p class="text-gray-300 mt-2">
+                            Client Satisfaction
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- Content -->
+
+                <div>
+
+                    <div class="space-y-8">
+
+                        <div class="flex gap-5">
+
+                            <div
+                                class="w-16 h-16 rounded-2xl bg-[#D4A64A] flex items-center justify-center flex-shrink-0">
+
+                                <i class="fa-solid fa-medal text-white text-2xl"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h3 class="text-2xl font-bold text-[#0A2540]">
+                                    Premium Product Quality
+                                </h3>
+
+                                <p class="text-gray-600 mt-2">
+                                    We source and deliver products that meet
+                                    international quality standards.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex gap-5">
+
+                            <div
+                                class="w-16 h-16 rounded-2xl bg-[#D4A64A] flex items-center justify-center flex-shrink-0">
+
+                                <i class="fa-solid fa-ship text-white text-2xl"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h3 class="text-2xl font-bold text-[#0A2540]">
+                                    Smooth Export Operations
+                                </h3>
+
+                                <p class="text-gray-600 mt-2">
+                                    Efficient logistics and documentation support
+                                    ensure hassle-free exports.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex gap-5">
+
+                            <div
+                                class="w-16 h-16 rounded-2xl bg-[#D4A64A] flex items-center justify-center flex-shrink-0">
+
+                                <i class="fa-solid fa-handshake text-white text-2xl"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h3 class="text-2xl font-bold text-[#0A2540]">
+                                    Long-Term Partnerships
+                                </h3>
+
+                                <p class="text-gray-600 mt-2">
+                                    We focus on building strong and transparent
+                                    business relationships.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="flex gap-5">
+
+                            <div
+                                class="w-16 h-16 rounded-2xl bg-[#D4A64A] flex items-center justify-center flex-shrink-0">
+
+                                <i class="fa-solid fa-globe text-white text-2xl"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h3 class="text-2xl font-bold text-[#0A2540]">
+                                    Worldwide Business Support
+                                </h3>
+
+                                <p class="text-gray-600 mt-2">
+                                    Serving domestic and international clients
+                                    with reliability and professionalism.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CORE BUSINESS VALUES -->
+
+    <section class="py-28 bg-slate-50 overflow-hidden">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <div class="text-center mb-20">
+
+                <span class="text-[#D4A64A] uppercase tracking-[4px] font-semibold">
+                    Our Values
+                </span>
+
+                <h2 class="text-5xl lg:text-6xl font-bold text-[#0A2540] mt-4">
+                    Principles That Drive Our Success
+                </h2>
+
+                <p class="text-gray-600 mt-6 max-w-3xl mx-auto">
+                    At Sangirishta Tradex, our business is built on trust,
+                    transparency, quality and long-term partnerships.
+                </p>
+
+            </div>
+
+            <!-- Value 1 -->
+
+            <div class="grid lg:grid-cols-2 gap-16 items-center mb-24">
+
+                <div>
+
+                    <img src="why-img/Integrity & Trust.jpg"
+                        class="rounded-[30px] shadow-2xl hover:scale-105 duration-700">
+
+                </div>
+
+                <div>
+
+                    <span class="text-[#D4A64A] font-semibold uppercase">
+                        01
+                    </span>
+
+                    <h3 class="text-4xl font-bold text-[#0A2540] mt-4">
+                        Integrity & Trust
+                    </h3>
+
+                    <p class="text-gray-600 mt-6 leading-relaxed">
+                        We believe trust is the foundation of every successful
+                        business relationship. Our team operates with honesty,
+                        ethics and transparency in every transaction.
+                    </p>
+
+                    <div class="w-24 h-1 bg-[#D4A64A] mt-8"></div>
+
+                </div>
+
+            </div>
+
+            <!-- Value 2 -->
+
+            <div class="grid lg:grid-cols-2 gap-16 items-center mb-24">
+
+                <div class="order-2 lg:order-1">
+
+                    <span class="text-[#D4A64A] font-semibold uppercase">
+                        02
+                    </span>
+
+                    <h3 class="text-4xl font-bold text-[#0A2540] mt-4">
+                        Quality Commitment
+                    </h3>
+
+                    <p class="text-gray-600 mt-6 leading-relaxed">
+                        Every product undergoes strict quality evaluation before
+                        reaching our customers, ensuring consistency and reliability.
+                    </p>
+
+                    <div class="w-24 h-1 bg-[#D4A64A] mt-8"></div>
+
+                </div>
+
+                <div class="order-1 lg:order-2">
+
+                    <img src="why-img/Quality Commitment.jpg"
+                        class="rounded-[30px] shadow-2xl hover:scale-105 duration-700">
+
+                </div>
+
+            </div>
+
+            <!-- Value 3 -->
+
+            <div class="grid lg:grid-cols-2 gap-16 items-center mb-24">
+
+                <div>
+
+                    <img src="why-img/Global Vision.jpg" class="rounded-[30px] shadow-2xl hover:scale-105 duration-700">
+
+                </div>
+
+                <div>
+
+                    <span class="text-[#D4A64A] font-semibold uppercase">
+                        03
+                    </span>
+
+                    <h3 class="text-4xl font-bold text-[#0A2540] mt-4">
+                        Global Vision
+                    </h3>
+
+                    <p class="text-gray-600 mt-6 leading-relaxed">
+                        We continuously expand our reach to serve international
+                        buyers while maintaining exceptional service standards.
+                    </p>
+
+                    <div class="w-24 h-1 bg-[#D4A64A] mt-8"></div>
+
+                </div>
+
+            </div>
+
+            <!-- Value 4 -->
+
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+                <div class="order-2 lg:order-1">
+
+                    <span class="text-[#D4A64A] font-semibold uppercase">
+                        04
+                    </span>
+
+                    <h3 class="text-4xl font-bold text-[#0A2540] mt-4">
+                        Customer Satisfaction
+                    </h3>
+
+                    <p class="text-gray-600 mt-6 leading-relaxed">
+                        Our mission is to exceed customer expectations through
+                        responsive service, premium products and timely delivery.
+                    </p>
+
+                    <div class="w-24 h-1 bg-[#D4A64A] mt-8"></div>
+
+                </div>
+
+                <div class="order-1 lg:order-2">
+
+                    <img src="why-img/Customer Satisfaction.jpg"
+                        class="rounded-[30px] shadow-2xl hover:scale-105 duration-700">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- GLOBAL REACH -->
+
+    <section class="relative py-32 overflow-hidden">
+
+        <!-- Background -->
+
+        <div class="absolute inset-0">
+
+            <img src="why-img/Connecting Businesses Worldwide.jpg" class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-[#0A2540]/75"></div>
+
+        </div>
+
+        <!-- Floating Elements -->
+
+        <div class="absolute top-20 left-20 w-72 h-72 bg-[#D4A64A]/10 rounded-full blur-3xl">
+        </div>
+
+        <div class="absolute bottom-20 right-20 w-80 h-80 bg-white/5 rounded-full blur-3xl">
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-6">
+
+            <div class="text-center">
+
+                <span
+                    class="inline-block px-6 py-3 bg-[#D4A64A]/20 text-[#D4A64A] rounded-full uppercase tracking-[4px]">
+
+                    Global Reach
+
+                </span>
+
+                <h2 class="text-5xl lg:text-7xl font-bold text-white mt-8">
+
+                    Connecting Businesses
+                    <span class="text-[#D4A64A]">
+                        Worldwide
+                    </span>
+
+                </h2>
+
+                <p class="text-gray-300 text-lg mt-8 max-w-3xl mx-auto">
+
+                    Sangirishta Tradex serves domestic and international buyers
+                    with quality products, dependable sourcing and seamless logistics.
+
+                </p>
+
+            </div>
+
+            <!-- Statistics -->
+
+            <div class="grid md:grid-cols-3 gap-12 mt-24">
+
+                <div class="text-center">
+
+                    <h3 class="text-7xl font-bold text-[#D4A64A]">
+                        25+
+                    </h3>
+
+                    <p class="text-white text-xl mt-4">
+                        Countries Served
+                    </p>
+
+                </div>
+
+                <div class="text-center">
+
+                    <h3 class="text-7xl font-bold text-[#D4A64A]">
+                        100+
+                    </h3>
+
+                    <p class="text-white text-xl mt-4">
+                        Global Clients
+                    </p>
+
+                </div>
+
+                <div class="text-center">
+
+                    <h3 class="text-7xl font-bold text-[#D4A64A]">
+                        1000+
+                    </h3>
+
+                    <p class="text-white text-xl mt-4">
+                        Successful Shipments
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- WHY CUSTOMERS CHOOSE US-->
+
+    <section class="relative py-28 overflow-hidden">
+
+        <!-- Background -->
+
+        <div class="absolute inset-0">
+
+            <img src="why-img/Customer Benefits.jpg" class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-[#0A2540]/90"></div>
+
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-6">
+
+            <!-- Heading -->
+
+            <div class="text-center max-w-4xl mx-auto">
+
+                <span
+                    class="inline-block px-6 py-3 bg-[#D4A64A]/20 text-[#D4A64A] rounded-full uppercase tracking-[4px]">
+
+                    Customer Benefits
+
+                </span>
+
+                <h2 class="text-5xl lg:text-7xl font-bold text-white mt-8">
+
+                    Why Businesses Prefer
+                    <span class="text-[#D4A64A]">
+                        Sangirishta Tradex
+                    </span>
+
+                </h2>
+
+                <p class="text-gray-300 text-lg mt-8">
+
+                    We deliver value beyond products by providing dependable
+                    sourcing, quality assurance and exceptional customer service.
+
+                </p>
+
+            </div>
+
+            <!-- Benefits -->
+
+            <div class="mt-24 space-y-10">
+
+                <!-- Row 1 -->
+
+                <div
+                    class="group bg-white/10 backdrop-blur-lg border border-white/10 rounded-[30px] p-8 hover:bg-white hover:shadow-2xl duration-500">
+
+                    <div class="flex flex-col lg:flex-row items-center gap-8">
+
+                        <div class="w-24 h-24 rounded-full bg-[#D4A64A] flex items-center justify-center">
+
+                            <i class="fa-solid fa-tags text-white text-4xl"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3 class="text-3xl font-bold text-white group-hover:text-[#0A2540] duration-300">
+
+                                Competitive Pricing
+
+                            </h3>
+
+                            <p class="text-gray-300 group-hover:text-gray-600 mt-4 text-lg">
+
+                                Affordable pricing structures designed to maximize
+                                value while maintaining exceptional product quality.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Row 2 -->
+
+                <div
+                    class="group bg-white/10 backdrop-blur-lg border border-white/10 rounded-[30px] p-8 hover:bg-white hover:shadow-2xl duration-500">
+
+                    <div class="flex flex-col lg:flex-row items-center gap-8">
+
+                        <div class="w-24 h-24 rounded-full bg-[#D4A64A] flex items-center justify-center">
+
+                            <i class="fa-solid fa-award text-white text-4xl"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3 class="text-3xl font-bold text-white group-hover:text-[#0A2540] duration-300">
+
+                                Premium Quality Products
+
+                            </h3>
+
+                            <p class="text-gray-300 group-hover:text-gray-600 mt-4 text-lg">
+
+                                Carefully selected products that meet industry
+                                standards and customer expectations.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Row 3 -->
+
+                <div
+                    class="group bg-white/10 backdrop-blur-lg border border-white/10 rounded-[30px] p-8 hover:bg-white hover:shadow-2xl duration-500">
+
+                    <div class="flex flex-col lg:flex-row items-center gap-8">
+
+                        <div class="w-24 h-24 rounded-full bg-[#D4A64A] flex items-center justify-center">
+
+                            <i class="fa-solid fa-box-open text-white text-4xl"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3 class="text-3xl font-bold text-white group-hover:text-[#0A2540] duration-300">
+
+                                Secure Packaging
+
+                            </h3>
+
+                            <p class="text-gray-300 group-hover:text-gray-600 mt-4 text-lg">
+
+                                Professional packaging solutions that ensure safe
+                                transportation and product protection.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Row 4 -->
+
+                <div
+                    class="group bg-white/10 backdrop-blur-lg border border-white/10 rounded-[30px] p-8 hover:bg-white hover:shadow-2xl duration-500">
+
+                    <div class="flex flex-col lg:flex-row items-center gap-8">
+
+                        <div class="w-24 h-24 rounded-full bg-[#D4A64A] flex items-center justify-center">
+
+                            <i class="fa-solid fa-truck-fast text-white text-4xl"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3 class="text-3xl font-bold text-white group-hover:text-[#0A2540] duration-300">
+
+                                Timely Delivery
+
+                            </h3>
+
+                            <p class="text-gray-300 group-hover:text-gray-600 mt-4 text-lg">
+
+                                Efficient supply chain management and logistics
+                                support for on-time deliveries.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer class="bg-[#081A2E] text-white">
+
+        <div class="max-w-7xl mx-auto px-6 py-20">
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+
+                <!-- Company -->
+
+                <div>
+
+                    <img src="images/logo.png" class="h-20 mb-5">
+
+                    <p class="text-gray-400 leading-relaxed">
+                        Trusted trading and export company supplying
+                        premium quality products to domestic and
+                        international markets.
+                    </p>
+
+                </div>
+
+                <!-- Quick Links -->
+
+                <div>
+
+                    <h3 class="text-xl font-bold mb-6">
+                        Quick Links
+                    </h3>
+
+                    <ul class="space-y-3 text-gray-400">
+
+                        <li><a class="hover:text-white hover:underline" href="index.html">Home</a></li>
+                        <li><a class="hover:text-white hover:underline" href="about.html">About Us</a></li>
+                        <li><a class="hover:text-white hover:underline" href="products.html">Products</a></li>
+                        <li><a class="hover:text-white hover:underline" href="contact.html">Contact Us</a></li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Products -->
+
+                <div>
+
+                    <h3 class="text-xl font-bold mb-6">
+                        Products
+                    </h3>
+
+                    <ul class="space-y-3 text-gray-400">
+
+                        <li>Cashew</li>
+                        <li>Raw Turmeric</li>
+                        <li>Herbal Extracts</li>
+                        <li>Desi Cow Ghee</li>
+                        <li>Motor Shafts</li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Contact -->
+
+                <div>
+
+                    <h3 class="text-xl font-bold mb-6">
+                        Contact Info
+                    </h3>
+
+                    <ul class="space-y-4 text-gray-400">
+
+                        <li>
+                            <a href="tel:9096202417"> 📞 9096202417</a>
+                        </li>
+
+                        <li>
+                            <a href="mail:sangirishta.tradex@gmail.com">✉️ sangirishta.tradex@gmail.com</a>
+                        </li>
+
+                        <li>
+                            📍 Pune, Maharashtra, India
+                        </li>
+
+                        <li>
+                            GST: 27BPMPM0049B1Z4
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+
+        <div class="border-t border-white/10">
+
+            <div class="max-w-7xl mx-auto px-6 py-6 text-center text-gray-400">
+
+                © 2026 Sangirishta Tradex. All Rights Reserved.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
